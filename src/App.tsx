@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import logo from "./logo.svg"
+import "./App.css"
+import { Button } from "antd"
 
 function App() {
   return (
@@ -14,13 +15,13 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
+        <Button type="primary">PRESS ME</Button>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
